@@ -1,0 +1,10 @@
+package abstractex;
+
+public abstract class Computer {
+	abstract public void display();
+	public abstract void typing();
+	
+	public int add(int a, int b) {
+		return 0;
+	}
+}

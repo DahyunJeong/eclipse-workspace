@@ -1,0 +1,7 @@
+package chapter9;
+
+import template.Car;
+
+public class Grandeur extends Car {
+	
+}

@@ -1,0 +1,10 @@
+package witharrayList;
+
+public class Snippet {
+	public static void main(String[] args) {
+		aTest.moveAnimal1(new Human());			//Human h = new Human();
+				aTest.moveAnimal2(new Tiger());			//Tiger t = new Tiger();
+				aTest.moveAnimal3(new Eagle());
+	}
+}
+

@@ -1,0 +1,17 @@
+package template;
+
+import java.util.ArrayList;
+
+import template.Car;
+
+public class CarTest_Q5 {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Car> carList = new ArrayList<Car>();
+		carList.add(new Sonata());
+		
+		
+		
+	}
+}

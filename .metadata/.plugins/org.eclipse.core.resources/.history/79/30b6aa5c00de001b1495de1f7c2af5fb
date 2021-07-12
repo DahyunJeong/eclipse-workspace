@@ -1,0 +1,26 @@
+package inheritance;
+
+import test.ColorPoint;
+
+public class ColorPointEx {
+
+	public static void main(String[] args) {
+		
+		Point p = new Point();		//Point 클래스의 기본 생성자 호출
+		
+		p.set(1, 2);
+		p.x = 1;
+		p.y = 2;
+		p.showPoint();
+		
+		ColorPoint cp = new ColorPoint();
+		
+		cp.set(3, 5);
+		cp.x = 3;
+		cp.y = 5;
+		cp.setColor("red");
+		cp.showColorPoint();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package template;
+
+import template.Car;
+
+public class Sonata extends Car {
+
+	@Override
+	public void drive() {
+		
+	}
+
+	@Override
+	public void stop() {
+		
+	}
+
+}

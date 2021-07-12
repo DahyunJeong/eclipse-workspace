@@ -1,0 +1,16 @@
+package inheritance;
+
+public class ColorPointEx {
+
+	public static void main(String[] args) {
+		
+		Point p = new Point();		//Point 클래스의 기본 생성자 호출
+		
+		p.set(1, 2);
+		p.x = 1;
+		p.y = 2;
+		
+
+	}
+
+}

@@ -1,0 +1,49 @@
+package polymorphism2;
+
+class Animal {
+	public void move() {
+		System.out.println("동물이 움직입니다.");
+	}
+}
+
+class Human extends Animal {
+	@Override
+	public void move() {
+		System.out.println("사람이 두 발로 걷습니다.");
+	}
+}
+
+class Tiger extends Animal {
+	@Override
+	public void move() {
+		System.out.println("호랑이가 네 발로 뜁니다.");
+	}
+}
+
+class Eagle extends Animal {
+	@Override
+	public void move() {
+		System.out.println("독수리가 하늘을 납니다.");
+	}
+}
+
+public class AnimalTest2 {
+	
+	public static void main(String[] args) {
+		
+		AnimalTest2 aTest = new AnimalTest2();
+		aTest.moveAnimal1(new Human());			//업캐스팅 Animal animal = new Human();
+		aTest.moveAnimal2(new Tiger());			//업캐스팅
+		aTest.moveAnimal3(new Eagle());			//업캐스팅
+	}
+	
+	public void moveAnimal1(Human h) {
+		h.move();							//동적바인딩에 의해 Override 된 move가 실행됨
+	}
+	public void moveAnimal2(Tiger animal) {
+		animal.move();							//동적바인딩에 의해 Override 된 move가 실행됨
+	}
+	public void moveAnimal3(Eagle animal) {
+		animal.move();							//동적바인딩에 의해 Override 된 move가 실행됨
+	}
+}

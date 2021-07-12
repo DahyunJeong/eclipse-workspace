@@ -1,0 +1,25 @@
+package instanceofEx;
+
+class Person {	}
+class Student extends Person { }
+class Resercher extends Person { }
+class Professor extends Resercher { }
+
+public class InstanceofEx {
+	static void print(Person p) {
+		if(p instanceof Person) System.out.println("Person");
+		if(p instanceof Student) System.out.println("Student");
+		if(p instanceof Resercher) System.out.println("Resercher");
+		if(p instanceof Professor) System.out.println("Professor");
+	}
+	
+	public static void main(String[] args) {
+		System.out.print("new Student() -> \t"); print(new Student());
+		System.out.println();
+		System.out.print("new Student() -> \t"); print(new Resercher());
+		System.out.print("new Student() -> \t"); print(new Professor());
+		
+		
+	}
+
+}

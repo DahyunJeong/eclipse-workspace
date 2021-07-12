@@ -1,0 +1,15 @@
+package inberitance2;
+
+public class InherianceEx {
+
+	public static void main(String[] args) {
+
+		Student stu = new Student();
+		stu.set();
+		
+		System.out.println("나이: "+stu.age + " 이름: " + stu.name );
+		System.out.println(stu.height);
+		System.out.println(stu.getWeight());
+	}
+
+}

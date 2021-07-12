@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;j&apos; in &apos;test0702.Plob15.main(...)&apos; to &apos;ten&apos;&#x0D;&#x0A;- Original project: &apos;project_Test&apos;&#x0D;&#x0A;- Original element: &apos;test0702.Plob15.main(String[]).j&apos;&#x0D;&#x0A;- Renamed element: &apos;j&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;j&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;test0702{Plob15.java[Plob15~main~\[QString;@j!116!124!120!120!I!0!false" name="ten" references="true" stamp="1625215569108" version="1.0"/>
+</session>
